@@ -1,0 +1,16 @@
+# Secrets - never commit these
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Runtime data - blueprints/whitelists contain real server IDs and structure;
+# lock files and logs are machine-specific, not something to version control
+data/
+temp/
+
+# OS/editor noise
+.DS_Store
+*.log
