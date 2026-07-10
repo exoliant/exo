@@ -1,0 +1,20 @@
+{
+  "name": "anti-nuke-bot",
+  "version": "1.0.0",
+  "description": "A blueprint-based anti-nuke Discord bot: saves a known-good server state and detects, attributes, and repairs unauthorized destructive or configuration changes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["discord", "anti-nuke", "moderation-bot"],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
